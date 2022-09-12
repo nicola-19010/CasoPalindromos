@@ -24,7 +24,7 @@ public class Palindromo {
         Scanner scanner = new Scanner(System.in);
         String ingreso = "";
 
-        System.out.println("Ingrese un candidato a palindromo: ");
+        System.out.println("Ingrese un candidato a palindromo:  ");
         while (ingreso.isEmpty()){
             System.out.println("Recuerde ingresar una opcion valida, no se permite texto vacio: ");
             ingreso = scanner.nextLine();
