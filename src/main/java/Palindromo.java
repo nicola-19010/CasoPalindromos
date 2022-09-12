@@ -26,7 +26,7 @@ public class Palindromo {
 
         System.out.println("Ingrese un candidato a palindromo: ");
         while (ingreso.isEmpty()){
-            System.out.println("Recuerde ingresar una opcion valida, no se permite texto vacio: ");
+            System.out.println("Recuerde ingresar una opcion valida, no se permite texto vacio:  ");
             ingreso = scanner.nextLine();
         }
         return ingreso;
